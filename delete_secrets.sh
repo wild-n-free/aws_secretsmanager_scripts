@@ -5,7 +5,7 @@ AWS_PROFILE="your_aws_profile"
 AWS_REGION="your_aws_region"
 
 # Input file containing secret names, one per line
-SECRETS_FILE="the_filename_with_the_list_of_secrets.extion"
+SECRETS_FILE="the_filename_with_the_list_of_secrets.extention"
 
 # Check if the AWS CLI is installed
 if ! command -v aws &> /dev/null; then
